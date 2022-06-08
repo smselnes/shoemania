@@ -1,6 +1,6 @@
 import { renderProducts } from "./renderProducts.js";
 import { searchProducts } from "../ui/filterProducts.js";
-const url = "http://localhost:1337/api/products?populate=*";
+const url = "https://sempro2.herokuapp.com/api/products?populate=*";
 
 const loader = document.querySelector(".loader");
 
