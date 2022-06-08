@@ -1,0 +1,52 @@
+.welcome {
+  text-align: center;
+
+  &__heading {
+    background-color: white;
+    padding: 1rem;
+    animation: intro 1.5s 1 linear;
+
+    @media (min-width: 768px) {
+      font-size: 3rem;
+    }
+
+    @keyframes intro {
+      0% {
+        font-size: 0;
+        background-color: $colour__dark;
+        margin-left: 100%;
+        opacity: 0;
+      }
+      50% {
+        opacity: 0.5;
+      }
+      100% {
+        background-color: white;
+        margin-left: 0;
+        opacity: 1;
+      }
+    }
+  }
+
+  &__button {
+    background-color: $colour__dark;
+    color: $colour__content--bg;
+    box-shadow: $btn__shadow;
+    font-size: 1rem;
+
+    @media (min-width: 768px) {
+      font-size: 1.5rem;
+    }
+
+    &:hover {
+      color: $colour__dark;
+      background-color: $colour__background;
+      transition: $hover__transition;
+      box-shadow: $btn__shadow--hover;
+    }
+
+    @media (min-width: 576px) {
+      font-size: 1.2rem;
+    }
+  }
+}

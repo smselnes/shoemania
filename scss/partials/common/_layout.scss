@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $colour__content--bg;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  background-color: $colour__dark;
+  color: $font-colour__light;
+  box-shadow: $btn__shadow;
+
+  &:hover {
+    background-color: $colour__background;
+    color: $colour__dark;
+    box-shadow: $btn__shadow--hover;
+    transition: $hover__transition;
+  }
+}

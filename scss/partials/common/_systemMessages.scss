@@ -1,0 +1,35 @@
+.error {
+  color: $colour__system--error;
+  background-color: $colour__system--error-bg;
+}
+
+.warning {
+  width: fit-content;
+  color: $colour__dark;
+  padding: 10px;
+  background-color: $colour__system--warning;
+  margin: auto;
+}
+
+.success {
+  width: fit-content;
+  color: white;
+  padding: 10px;
+  background-color: $colour__system--success;
+  margin: auto;
+}
+
+.notice {
+  background-color: $colour__system--notice;
+  text-align: center;
+}
+
+.error__message {
+  display: none;
+  background-color: $colour__system--error-bg;
+  color: $colour__system--error;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  margin-top: 10px;
+  max-width: fit-content;
+}

@@ -1,0 +1,27 @@
+//fonts
+$font__headings: "Nova Mono", monospace;
+$font__text: "Prompt", sans-serif;
+
+//colors
+$colour__background: #9ec79d;
+$colour__content--bg: #f0f1f2;
+$colour__dark: #384968;
+$colour__system--warning: #ffba21;
+$colour__system--error: #8f1309;
+$colour__system--error-bg: #ffb0c2;
+$colour__system--success: #03de04;
+$colour__system--notice: #abcde6;
+
+$btn__standard: #384968;
+$font-colour__light: #f0f1f2;
+$font-colour__dark: #384968;
+
+//font sizes
+$fontSize__small: 12px;
+
+//box shadow variables
+$btn__shadow: 0px 0px 3px 0px $colour__dark;
+$btn__shadow--hover: 0px 0px 6px 1px $colour__dark;
+
+//transitions
+$hover__transition: 0.4s ease;

@@ -1,0 +1,47 @@
+.editProducts {
+  background-color: $colour__background;
+
+  & .button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    @media (min-width: 992px) {
+      width: 3.5rem;
+    }
+  }
+
+  & .card {
+    width: 240px;
+
+    @media (min-width: 768px) {
+      width: 350px;
+    }
+  }
+
+  & img {
+    border-bottom: 2px solid $colour__dark;
+
+    @media (min-width: 576px) {
+      border-right: none;
+    }
+  }
+}
+
+.delete__button {
+  background-color: red;
+  color: white;
+}
+
+.editProduct__title--error,
+.editProduct__price--error,
+.editProduct__description--error,
+.editProduct__id--error {
+  display: none;
+  background-color: pink;
+  color: red;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  margin-top: 10px;
+  max-width: fit-content;
+}

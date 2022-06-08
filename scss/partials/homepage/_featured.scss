@@ -1,0 +1,29 @@
+.featured {
+  background-color: $colour__background;
+
+  &__card {
+    box-shadow: $btn__shadow;
+    margin: 1rem;
+    border-radius: 10px;
+
+    & img {
+      border-bottom: 2px solid $colour__dark;
+      border-radius: 10px;
+    }
+  }
+
+  &__link {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 1rem;
+    box-shadow: $btn__shadow;
+
+    &:hover {
+      background-color: $colour__background;
+      color: $font-colour__dark;
+      transition: $hover__transition;
+      box-shadow: $btn__shadow--hover;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.email__error,
+.password__error {
+  display: none;
+  background-color: $colour__system--error-bg;
+  color: $colour__system--error;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  margin-top: 10px;
+  max-width: fit-content;
+}
+
+.warning {
+  background-color: $colour__system--warning;
+}
+
+.login__error {
+  background-color: $colour__system--error-bg;
+  width: fit-content;
+}
