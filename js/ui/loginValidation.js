@@ -1,6 +1,7 @@
 import { displayMessage } from "../components/displayMessage.js";
 import { saveToken, saveUser } from "../tools/storage.js";
-const newUrl = "http://localhost:1337/api";
+const newUrl = "https://sempro2.herokuapp.com/api";
+//const newUrl = "http://localhost:1337/api";
 const emailInput = document.querySelector(".emailInput");
 const emailError = document.querySelector(".email__error");
 const passwordInput = document.querySelector(".passwordInput");
