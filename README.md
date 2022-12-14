@@ -1,4 +1,4 @@
-# Shoemania - Semester Project (May 2021)
+# Shoemania - Semester Project (May 2022)
 
 ![mockup image of project](/images/shoemania-mockup.jpg)
 
